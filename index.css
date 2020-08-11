@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    background-color: #212530;
+    background-image: url(images/ellipse-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: Roboto, 'sans-serif';
+}
+
+.container{
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #161920;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 23px;
+}
+
+.navbar .navlinks{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.navlinks .navlink{
+    margin-right: 48px;
+}
+
+.navlinks .navlink-item{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.navlinks .active{
+    color: white;
+    opacity: 1;
+}
+
+.navlinks .navlink-item:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}    
+
+.navbar .navicon{
+    margin-right: 20px;
+    color: white;
+}
+
+.nav-icons .fa-shopping-bag{
+    position: relative;
+}
+
+.nav-icons .fa-shopping-bag::after{
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    right: 0.2px;
+}
+
