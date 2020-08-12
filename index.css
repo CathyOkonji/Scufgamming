@@ -11,8 +11,11 @@ body{
     background-color: #212530;
     background-image: url(images/ellipse-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
     font-family: Roboto, 'sans-serif';
+    background-position: right;
+    height: 500px;
+    background-size: 700px;
+    
 }
 
 .container{
