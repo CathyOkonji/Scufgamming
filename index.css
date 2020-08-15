@@ -80,3 +80,47 @@ header{
     right: 0.2px;
 }
 
+.bodysection{
+    display: flex;
+}
+
+.bodytext{
+    position: relative;
+    justify-content: flex-start;
+    color: white;
+    font-family: Roboto, 'sans-serif';
+    padding: 70px 50px; 
+}
+
+.text .title{
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.title .makered{
+    color: red;
+}
+
+.text .summary{
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bodytext .button{
+    padding: 20px 5px 10px 1px;
+    font-family: Roboto 'sans-serif';
+
+}
+
+.bodytext .gamepads{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 20px 1px;
+}
+
+
+
