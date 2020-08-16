@@ -12,9 +12,9 @@ body{
     background-image: url(images/ellipse-bg.png);
     background-repeat: no-repeat;
     font-family: Roboto, 'sans-serif';
-    background-position: right;
+    background-position: 590px;
     height: 500px;
-    background-size: 700px;
+    background-size: cover;
     
 }
 
@@ -90,6 +90,7 @@ header{
     color: white;
     font-family: Roboto, 'sans-serif';
     padding: 70px 50px; 
+    width: 50%;
 }
 
 .text .title{
@@ -109,18 +110,68 @@ header{
     line-height: 24px;
 }
 
-.bodytext .button{
-    padding: 20px 5px 10px 1px;
+.button{
+    position: absolute;
+    padding: 20px 5px 20px 1px;
     font-family: Roboto 'sans-serif';
-
+    color: red;
+    font-size: 14px;
+    border: 1px solid #E42C47;
 }
 
 .bodytext .gamepads{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 25px 20px 20px 1px;
+    padding: 65px 20px 20px 1px;
 }
 
+.bodyimages{
+    position: relative;
+    width: 50%;
+}
 
+.redcard{
+    position: absolute;
+    bottom: 60px;
+    left: -20px; 
+    transform: rotate(1deg);
+    border-radius: 15px;
+}
 
+.gamepadblue{
+    position: absolute;
+    top: 60px;
+    left: -40px;   
+}
+
+.gamepadwhite{
+    position: absolute;
+    bottom: 60px;
+    right: 100px;   
+}
+
+.contact .contactlinks{
+    list-style: none;
+    display: flex;
+    opacity: 0.5;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+    width: 50%;
+    margin-left: 40px;
+}
+
+.contactlinks .contact1{
+    justify-content: flex-start;
+    padding: 5px 100px 100px 1px;
+    text-decoration: none;
+    font-family: Roboto 'sans-serif';
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.contactlinks .contact1:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
